@@ -9,6 +9,9 @@ class ToolMove extends SimpleModule
     @editor = @_module
     return unless @opts.toolmove
 
+    toolmove = $(@opts.toolmove)
+    toolmove.addClass 'simditor'
+
     @editor.wrapper.find('.simditor-toolbar').appendTo($(@opts.toolmove))
 
 Simditor.connect ToolMove
