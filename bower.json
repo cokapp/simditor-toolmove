@@ -1,0 +1,26 @@
+{
+  "name": "simditor-toolmove",
+  "version": "1.0.0",
+  "authors": [
+    "charlie<charlie@cokapp.com>"
+  ],
+  "description": "a toolmove plugin for Simditor",
+  "main": "lib/simditor-toolmove.js",
+  "keywords": [
+    "simditor",
+    "toolmove"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cokapp/simditor-toolmove",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "Gruntfile.coffee",
+    "package.json"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "simditor": "2.3.x"
+  }
+}
